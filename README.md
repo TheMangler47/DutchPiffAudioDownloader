@@ -2,8 +2,7 @@
 
 Step 1 :
 Install ```requirements.txt```
-In CMD Do : ```bash
-playwright install chromium```
+In CMD Do : ```playwright install chromium```
 
 Step 2 : Run The Py Script and Enter a Valid URL of an Dutchpiff Album/Mixtape
 
