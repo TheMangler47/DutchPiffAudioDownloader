@@ -1,11 +1,46 @@
 # DutchPiffAudioDownloader
 
-Step 1 :
-Install ```requirements.txt```
-In CMD Do : ```playwright install chromium```
+## Requirements
 
-Step 2 : Run The Py Script and Enter a Valid URL of an Dutchpiff Album/Mixtape
+* Python 3 (3.13)
+* Playwright
+* Chromium
 
-Step 3 : A Chrome Browser Will Open (DO NOT CLOSE THIS AS THIS IS NEEDED), Press Play On Track 1 And Let It Download.
+## Installation
 
-Step 4 : Enjoy! You Now Have The Mixtape In the Downloads Folder Created By The Script.
+### Step 1
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Then install the Chromium browser used by Playwright:
+
+```bash
+playwright install chromium
+```
+
+### Step 2
+
+Run the Python script and enter a valid DutchPiff album/mixtape URL when prompted.
+
+### Step 3
+
+A Chrome/Chromium browser window will open.
+
+**DO NOT CLOSE THE BROWSER WINDOW.**
+
+Press **Play** on Track 1 and let the downloader run through the mixtape.
+
+The downloader will automatically download each track and the album cover.
+
+Your mixtape will be saved inside the `downloads` folder created by the script.
+
+## Example
+
+```text
+Paste DutchPiff album URL:
+> https://dutchpiff.com/albums/album-986
+```
